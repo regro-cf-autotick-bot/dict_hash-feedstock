@@ -1,5 +1,5 @@
 {% set name = "dict_hash" %}
-{% set version = "1.1.36" %}
+{% set version = "1.1.37" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dict_hash-{{ version }}.tar.gz
-  sha256: 2a2794deade93b9ac9ccd7e045a79f54306c90fd97d8648f6f4e5e8be73c1666
+  sha256: 40a5dfef0c0291abeead3990ee33ecbc662550f7335074d91316cc0a6e67b1d5
 
 build:
   noarch: python
